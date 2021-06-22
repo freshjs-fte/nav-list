@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    height: 200vh;
+    --font-size: 20px;
+}
+
+:root {
+    
+}
+
+.wrapper-out {
+    position: relative;
+}
+
+.wrapper {
+    position: relative;
+    height: 200px;
+    font-size: 0;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.par {
+    background-color: bisque;
+
+    font-size: 1rem;
+    margin: 0;
+    z-index: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
